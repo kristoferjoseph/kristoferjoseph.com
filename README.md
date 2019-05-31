@@ -1,2 +1,0 @@
-# kristoferjoseph.com
-Begin app
