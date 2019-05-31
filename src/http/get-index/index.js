@@ -1,37 +1,20 @@
 const Main = require('@architect/views/main.js')
-const staticAssetsHelper = require('./static-assets-helper')
-
-// Customize your site by changing the data below
 exports.handler = async function Index () {
   let body = Main({
-    /**
-     * Basic bio
-     */
-    fullname: 'Your Name', // ←  Start by adding your name!
-    title: 'My personal site!',
-    occupation: 'Artist & Photographer',
-    location: 'West Glacier, MT',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
-
-    /**
-     * Contact / social
-     * - Comment out any item below to remove it from your page
-     */
-    email: 'your@email.com',
-    twitter: 'yourTwitter',
-    linkedin: 'your-linkedin-name',
-    instagram: 'yourInsta',
-    facebook: 'your-facebook-name',
-
-    /**
-     * Layout
-     */
+    fullname: 'Kristofer Joseph',
+    title: 'kj',
+    occupation: 'Conjurer of markup, wrangler of styles ✨',
+    location: 'Bay Area, Ca',
+    bio: 'Thinker of dreams ⌁ Maker of things ⌁ Aspiring helper of beings<br><br> Currently working on <a style="color: #FD6D6D;" href="https://begin.com">Begin</a>',
+    email: 'kj@begin.com',
+    twitter: 'dam',
+    linkedin: '',
+    instagram: '',
+    facebook: '',
     photographer: 'Ivana Cajina',
     service: 'Unsplash',
     credit: 'https://unsplash.com/@von_co',
-    image: staticAssetsHelper('background.jpg')
-    // or link to an external image URL such as ↓
-    // image: 'https://images.unsplash.com/photo-1506535772317-9fdb71c959c6'
+    image: 'https://images.unsplash.com/photo-1517984148507-8b3358812287?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60'
   })
 
   return {
