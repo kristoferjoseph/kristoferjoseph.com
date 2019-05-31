@@ -1,6 +1,6 @@
 {
   "name": "node-personal-website",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Example Begin personal website",
   "main": "index.js",
   "scripts": {
