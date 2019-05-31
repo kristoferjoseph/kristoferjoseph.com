@@ -210,8 +210,8 @@ body {
 .font-weight-400 {
   font-weight: 400;
 }
-.line-height-75{
-  line-height: 0.75;
+.line-height-1-75{
+  line-height: 1.75;
 }
 .text-decoration-none {
   text-decoration: none;
