@@ -60,7 +60,7 @@ module.exports = function Content (props) {
         class="
           margin-bottom-42
           font-size-16
-          line-height-75
+          line-height-1-75
           color-383D3B
         "
       >
