@@ -17,10 +17,12 @@
   "author": "@dam",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@architect/architect": "^5.8.4",
     "eslint": "^5.16.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.10.1",
     "tiny-json-http": "^7.1.2"
+  },
+  "dependencies": {
+    "@architect/sandbox": "^1.9.1"
   }
 }
