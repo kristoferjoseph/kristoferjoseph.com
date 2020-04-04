@@ -1,6 +1,6 @@
 let test = require('tape')
 let tiny = require('tiny-json-http')
-let sandbox = require('@architect/architect').sandbox
+let sandbox = require('@architect/sandbox')
 
 test('env', t => {
   t.plan(1)
