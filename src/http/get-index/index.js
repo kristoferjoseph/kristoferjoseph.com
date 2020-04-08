@@ -5,7 +5,7 @@ exports.handler = async function Index () {
     title: 'kj',
     occupation: 'think dreams ⌁ make things ⌁ help beings',
     location: 'Bay Area, Ca',
-    bio: '👋 Why hello there!<br><br>When I grow up I would like to build a cabin in the redwoods where I can grow food whilst training raccoon kits to fly on the backs of ravens. <br><br> Until then, I will most likley continue with what I\'ve been up to for the past two decades and make tools to help people bring their visions into reality on the web. <br><br> I\'m currently working on <a style="color: #FD6D6D;" href="https://begin.com">Begin</a> and am always happy to hear from you.',
+    bio: 'Kristofer "kj" Joseph truly believes that the internet is the most powerful tool for bringing people together and raising our collective understanding. He has dedicated his career to building tools to enable people to share their dreams with the world.',
     email: 'kj@begin.com',
     twitter: 'dam',
     linkedin: '',
