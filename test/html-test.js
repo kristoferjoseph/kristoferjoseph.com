@@ -7,11 +7,10 @@ test('env', t => {
   t.ok(sandbox, 'sandbox')
 })
 
-let end // saves a reference to be used later to shut down the sandbox
 test('sandbox.start', async t => {
   t.plan(1)
-  end = await sandbox.start()
-  t.ok(true, 'opened')
+  let result = await sandbox.start()
+  t.ok(result, 'opened')
 })
 
 // callback style
@@ -53,8 +52,8 @@ test('get /', async t => {
   }
 })
 
-test('shut down the sandbox', t => {
+test('shut down the sandbox', async t => {
   t.plan(1)
-  end()
-  t.ok(true, 'shutdown successfully')
+  let result = await sandbox.end()
+  t.ok(result, 'shutdown successfully')
 })

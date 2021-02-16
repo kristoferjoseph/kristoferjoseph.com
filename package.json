@@ -1,7 +1,16 @@
 {
-  "name": "node-personal-website",
+  "arc": {
+    "app": "umami-bie",
+    "http": [
+      [
+        "get",
+        "/"
+      ]
+    ]
+  },
+  "name": "kristofer-joseph-dot-com",
   "version": "0.0.3",
-  "description": "Example Begin personal website",
+  "description": "Kristofer Joseph personal website",
   "main": "index.js",
   "scripts": {
     "start": "npx sandbox",
@@ -23,6 +32,6 @@
     "tiny-json-http": "^7.1.2"
   },
   "dependencies": {
-    "@architect/sandbox": "^1.9.1"
+    "@architect/sandbox": "^3.3.6"
   }
 }

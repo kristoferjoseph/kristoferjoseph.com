@@ -1,5 +1,6 @@
 const Main = require('@architect/views/main.js')
-exports.handler = async function Index () {
+
+exports.handler = async function Index() {
   let body = Main({
     fullname: 'Kristofer Joseph',
     title: 'kj',
@@ -18,6 +19,7 @@ exports.handler = async function Index () {
   })
 
   return {
+    statusCode: 200,
     headers: { 'content-type': 'text/html; charset=utf8' },
     body
   }
