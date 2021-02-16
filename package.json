@@ -1,13 +1,4 @@
 {
-  "arc": {
-    "app": "umami-bie",
-    "http": [
-      [
-        "get",
-        "/"
-      ]
-    ]
-  },
   "name": "kristofer-joseph-dot-com",
   "version": "0.0.3",
   "description": "Kristofer Joseph personal website",
